@@ -6,14 +6,25 @@
         <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/activity_main.xml" value="0.136" />
         <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/alert.xml" value="0.16893115942028986" />
         <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/conejo.xml" value="0.1" />
+        <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/conejo_loro.xml" value="0.2418478260869565" />
         <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/dialog_signin.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/edit_inf.xml" value="0.2" />
         <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/edit_info.xml" value="0.22146739130434784" />
         <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/gato.xml" value="0.1" />
+        <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/gato_conejo.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/gato_conejo_loro.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/gato_loro.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/gato_perro.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/gato_perro_loro.xml" value="0.2418478260869565" />
         <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/got.xml" value="0.16893115942028986" />
         <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/info.xml" value="0.4" />
         <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/loro.xml" value="0.1" />
         <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/perro.xml" value="0.1" />
+        <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/perro_conejo.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/perro_conejo_loro.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/perro_gato_conejo.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/perro_loro.xml" value="0.2418478260869565" />
+        <entry key="..\:/Users/renyg/AndroidStudioProjects/Tarea3/app/src/main/res/layout/todos.xml" value="0.12335359675785208" />
       </map>
     </option>
   </component>

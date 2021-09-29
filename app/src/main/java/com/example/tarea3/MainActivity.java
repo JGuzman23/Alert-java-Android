@@ -53,34 +53,122 @@ public class MainActivity extends AppCompatActivity implements ExampleDialog.Exa
 
     public void aceptar(View view) {
 
-        if(chb1.isChecked()){
-            Toast.makeText(MainActivity.this, "Gato", Toast.LENGTH_LONG).show();
-
+        if(chb1.isChecked() && !chb2.isChecked() && !chb3.isChecked() && !chb4.isChecked() )  {
 
             LayoutInflater imagenGato = LayoutInflater.from(MainActivity.this);
             vista= imagenGato.inflate(R.layout.gato,null);
             Alert(view);
 
         }
-        if(chb2.isChecked()){
-            Toast.makeText(MainActivity.this, "Perro", Toast.LENGTH_LONG).show();
+        if(chb2.isChecked() && !chb1.isChecked() && !chb3.isChecked() && !chb4.isChecked() ){
+
             LayoutInflater imagenPerro = LayoutInflater.from(MainActivity.this);
             vista= imagenPerro.inflate(R.layout.perro,null);
             Alert(view);
         }
-        if(chb3.isChecked()){
-            Toast.makeText(MainActivity.this, "Conejo", Toast.LENGTH_LONG).show();
+        if(chb3.isChecked() && !chb2.isChecked() && !chb1.isChecked() && !chb4.isChecked() ){
+
             LayoutInflater imagenConejo = LayoutInflater.from(MainActivity.this);
             vista= imagenConejo.inflate(R.layout.conejo,null);
             Alert(view);
         }
-        if(chb4.isChecked()){
-            Toast.makeText(MainActivity.this, "Loro", Toast.LENGTH_LONG).show();
+        if(chb4.isChecked() && !chb2.isChecked() && !chb3.isChecked() && !chb1.isChecked() ){
+
             LayoutInflater imagenLoro = LayoutInflater.from(MainActivity.this);
             vista= imagenLoro.inflate(R.layout.loro,null);
             Alert(view);
 
         }
+
+        if(chb1.isChecked() && chb2.isChecked() && !chb3.isChecked() && !chb4.isChecked() )  {
+
+            LayoutInflater gatoPerro = LayoutInflater.from(MainActivity.this);
+            vista= gatoPerro.inflate(R.layout.gato_perro,null);
+            Alert(view);
+
+        }
+        if(!chb2.isChecked() && chb1.isChecked() && chb3.isChecked() && !chb4.isChecked() ){
+
+            LayoutInflater GatoConejo = LayoutInflater.from(MainActivity.this);
+            vista= GatoConejo.inflate(R.layout.gato_conejo,null);
+            Alert(view);
+        }
+        if(!chb3.isChecked() && !chb2.isChecked() && chb1.isChecked() && chb4.isChecked() ){
+
+            LayoutInflater GatoLoro = LayoutInflater.from(MainActivity.this);
+            vista= GatoLoro.inflate(R.layout.gato_loro,null);
+            Alert(view);
+        }
+        if(!chb4.isChecked() && chb2.isChecked() && chb3.isChecked() && !chb1.isChecked() ){
+
+            LayoutInflater PerroCOnejo = LayoutInflater.from(MainActivity.this);
+            vista= PerroCOnejo.inflate(R.layout.perro_conejo,null);
+            Alert(view);
+
+        }
+        if(!chb1.isChecked() && chb2.isChecked() && !chb3.isChecked() && chb4.isChecked() )  {
+
+            LayoutInflater PerroLoro = LayoutInflater.from(MainActivity.this);
+            vista= PerroLoro.inflate(R.layout.perro_loro,null);
+            Alert(view);
+
+        }
+        if(!chb2.isChecked() && !chb1.isChecked() && chb3.isChecked() && chb4.isChecked() ){
+
+            LayoutInflater conejoLoro = LayoutInflater.from(MainActivity.this);
+            vista= conejoLoro.inflate(R.layout.conejo_loro,null);
+            Alert(view);
+        }
+        if(chb3.isChecked() && chb2.isChecked() && chb1.isChecked() && chb4.isChecked() ){
+
+            LayoutInflater Todos = LayoutInflater.from(MainActivity.this);
+            vista= Todos.inflate(R.layout.todos,null);
+            Alert(view);
+        }
+
+
+
+
+
+
+
+
+
+
+
+        if(!chb4.isChecked() && chb2.isChecked() && chb3.isChecked() && chb1.isChecked() ){
+
+            LayoutInflater GaPerCo = LayoutInflater.from(MainActivity.this);
+            vista= GaPerCo.inflate(R.layout.perro_gato_conejo,null);
+            Alert(view);
+
+        }
+        if(chb1.isChecked() && chb2.isChecked() && !chb3.isChecked() && chb4.isChecked() )  {
+
+            LayoutInflater GaPeLo = LayoutInflater.from(MainActivity.this);
+            vista= GaPeLo.inflate(R.layout.gato_perro_loro,null);
+            Alert(view);
+
+        }
+        if(!chb2.isChecked() && chb1.isChecked() && chb3.isChecked() && chb4.isChecked() ){
+
+            LayoutInflater GaCoLo = LayoutInflater.from(MainActivity.this);
+            vista= GaCoLo.inflate(R.layout.gato_conejo_loro,null);
+            Alert(view);
+        }
+        if(chb3.isChecked() && chb2.isChecked() && !chb1.isChecked() && chb4.isChecked() ){
+
+            LayoutInflater PeCoLo= LayoutInflater.from(MainActivity.this);
+            vista= PeCoLo.inflate(R.layout.perro_conejo_loro,null);
+            Alert(view);
+        }
+
+
+
+
+
+
+
 
     }
 
