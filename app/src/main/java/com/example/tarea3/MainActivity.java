@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity implements ExampleDialog.Exa
      View vista ;
 
      Button info, edit_Inf;
-    String Nombre;
-    String Instituto;
-    String Materia;
+    String Nombre = "Juan Guzman";
+    String Instituto ="ITLA";
+    String Materia="DESSARROLLO MOVIL";
 
 
 
